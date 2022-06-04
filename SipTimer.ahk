@@ -14,7 +14,7 @@ MLCount = % Round(MLCount)
 PerTM /= %Sipsize%
 ;MsgBox %PerTM% %MLCount%
 Loop, %HourCount% {
-	Sleep 10000 ;1800000
+	Sleep 1800000
 	N++
 	M = %MLCount%
 	M /= %HourCount%
